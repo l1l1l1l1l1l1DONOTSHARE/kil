@@ -145,7 +145,7 @@ newdupe.TextScaled = true
 newdupe.TextSize = 14.000
 newdupe.TextWrapped = true
 newdupe.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet('https://pastebin.com/raw/MiXku010'))()
+	loadstring(game:HttpGet('https://pastebin.com/raw/BwZgCM8x'))()
 end)
  
 UICorner_4.Parent = newdupe
