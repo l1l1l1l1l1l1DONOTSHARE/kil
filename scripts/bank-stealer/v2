@@ -10,7 +10,7 @@
 ]]
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Trade Scam/Dupe", "Syanpse")
+local Window = Library.CreateLib("Trade Scam/Dupe", "Synapse")
 local tradescam = require(game.ReplicatedStorage:WaitForChild('Framework'):WaitForChild('Library'))
 
 -- Assets
